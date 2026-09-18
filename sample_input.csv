@@ -1,0 +1,2 @@
+CVENumber,Severity,PackageName
+CVE-2026-8643,important,python-pip

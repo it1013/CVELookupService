@@ -1,0 +1,6 @@
+# Web UI
+nicegui>=2.0,<3.0
+# XLSX input support
+openpyxl>=3.1,<4.0
+# HTTP/API support
+requests>=2.31,<3.0
