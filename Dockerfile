@@ -49,13 +49,17 @@ CMD ["python3", "app.py"]
 #  --name cvetool \
 #  -p 8080:3251 \
 #  -v /path/to/config:/app/config \
+#  -v /path/to/logs:/app/logs \
 #  -v /path/to/releasebuilds:/app/releasebuilds \
+#  -e CVE_DEBUG=1 \
 #  cve-tool-service
 #
 #docker run -d `
 #  --name cvetool `
 #  -p 8080:3251 `
 #  -v /path/to/config:/app/config `
+#  -v /path/to/logs:/app/logs `
 #  -v /path/to/releasebuilds:/app/releasebuilds `
+#  -e CVE_DEBUG=1 `
 #  cve-tool-service
 
