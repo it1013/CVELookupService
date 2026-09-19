@@ -1,4 +1,4 @@
-# CVE Comparison NiceGUI Service
+# CVE Comparison Service
 
 ## Files
 
